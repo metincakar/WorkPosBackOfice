@@ -1,0 +1,116 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{B4B38F63-C3C0-4AD9-BB4F-7F12ADF8759E}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>WorkPosDal</RootNamespace>
+    <AssemblyName>WorkPosDal</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.1.3\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+      <Private>True</Private>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="EntityFrameWork\COMPANY.cs" />
+    <Compile Include="EntityFrameWork\COMPANY_ACCOUNTS.cs" />
+    <Compile Include="EntityFrameWork\COMPANY_BRANCH.cs" />
+    <Compile Include="EntityFrameWork\COMPANY_CAT.cs" />
+    <Compile Include="EntityFrameWork\COMPANY_CREDIT.cs" />
+    <Compile Include="EntityFrameWork\COMPANY_PARTNER.cs" />
+    <Compile Include="EntityFrameWork\COMPANY_PERIOD.cs" />
+    <Compile Include="EntityFrameWork\CONSUMER.cs" />
+    <Compile Include="EntityFrameWork\CONSUMER_CAT.cs" />
+    <Compile Include="EntityFrameWork\EMPLOYEES.cs" />
+    <Compile Include="EntityFrameWork\EMPLOYEE_POSITIONS.cs" />
+    <Compile Include="EntityFrameWork\OUR_COMPANY.cs" />
+    <Compile Include="EntityFrameWork\OUR_COMPANY_INFO.cs" />
+    <Compile Include="EntityFrameWork\SETUP_BRAND.cs" />
+    <Compile Include="EntityFrameWork\SETUP_CITY.cs" />
+    <Compile Include="EntityFrameWork\SETUP_COUNTRY.cs" />
+    <Compile Include="EntityFrameWork\SETUP_COUNTY.cs" />
+    <Compile Include="EntityFrameWork\SETUP_MONEY.cs" />
+    <Compile Include="EntityFrameWork\SETUP_UNIT.cs" />
+    <Compile Include="EntityFrameWork\WorkPosDbContext.cs" />
+    <Compile Include="EntityFrameWork\PRICE_STANDART.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_BRANCH.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_BRANDS.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_BRANDS_IMAGES.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_BRANDS_MODEL.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_BRANDS_OUR_COMPANY.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_CAT.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_CAT_BRANDS.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_CAT_OUR_COMPANY.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_CAT_POSITIONS.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_CAT_PROPERTY.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_COST.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_DT_PROPERTIES.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_IMAGES.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_NO.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_OUR_COMPANY.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_PROPERTY.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_PROPERTY_DETAIL.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_PROPERTY_OUR_COMPANY.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_UNIT.cs" />
+    <Compile Include="EntityFrameWork\PRODUCT_UNIT_HISTORY.cs" />
+    <Compile Include="Migrations\Configuration.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="EntityFrameWork\RELATED_PRODUCT_CAT.cs" />
+    <Compile Include="EntityFrameWork\SETUP_COMPANY_STOCK_CODE.cs" />
+    <Compile Include="EntityFrameWork\STOCKS.cs" />
+    <Compile Include="EntityFrameWork\STOCKS_BARCODES.cs" />
+    <Compile Include="EntityFrameWork\STOCKS_PROPERTY.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

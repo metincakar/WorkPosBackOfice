@@ -26,3 +26,17 @@ C:\Users\acer-pc\Documents\Visual Studio 2013\PlusProject\WorkPosBackOfice\WorkP
 C:\Users\acer-pc\Documents\Visual Studio 2013\PlusProject\WorkPosBackOfice\WorkPosBLL\bin\Debug\WorkPosDal.dll
 C:\Users\acer-pc\Documents\Visual Studio 2013\PlusProject\WorkPosBackOfice\WorkPosBLL\bin\Debug\EfBusiness.pdb
 C:\Users\acer-pc\Documents\Visual Studio 2013\PlusProject\WorkPosBackOfice\WorkPosBLL\bin\Debug\WorkPosDal.pdb
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\WorkPosBLL.dll.config
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\WorkPosBLL.dll
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\WorkPosBLL.pdb
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\EfBusiness.dll
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\EntityFramework.dll
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\WorkPosDal.dll
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\EfBusiness.pdb
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\EntityFramework.xml
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\bin\Debug\WorkPosDal.pdb
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\obj\Debug\WorkPosBLL.csprojResolveAssemblyReference.cache
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\obj\Debug\WorkPosBLL.dll
+C:\Users\metin\Documents\WorkPosBackOfice\WorkPosBLL\obj\Debug\WorkPosBLL.pdb
